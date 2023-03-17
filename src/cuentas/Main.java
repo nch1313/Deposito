@@ -7,13 +7,23 @@
 
 package cuentas;
 
-
+/**
+ * Projecto de creacion de un deposito bancario
+ * @author nch1313
+ * @since 16/03/2023
+ */
 public class Main {
-
+    /**
+     * La clase principal
+     * @param args los argumentos de la linea de comandos
+     */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
-
+/**
+ * Creacion del objeto cuenta1, con los parametros requeridos por el constructor
+ * 
+ */ 
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
